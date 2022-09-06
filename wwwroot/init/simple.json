@@ -1,0 +1,30 @@
+{
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  },
+  "catalog": [
+    {
+      "id":"green-channel-csv-data",
+      "type":"group",
+      "name":"Green Channel Project",
+      "members":[
+        {
+          "type": "csv",
+          "name": "AU-CN Climate Collaboration",
+          "description": "Australia China Business Council’s Green Channel is a multi-year, multi-sector program highlighting opportunities from greater collaboration on the Climate challenge. This site is highlighting existing projects underway. To check whether you project qualifies, please contact <a href='mailto:greenchannel@acbc.com'>greenchannel@acbc.com.au</a>",
+          "url": "https://api.acbcgreenchannel.com.au:8443/greenchannel/collaborator/get",
+          "activeStyle": "Magnitude",
+          "id": "life"
+        }
+      ]
+    }
+  ],
+  "viewerMode": "3dSmooth",
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-positron",
+    "previewBaseMapId": "basemap-positron"
+  }
+}
