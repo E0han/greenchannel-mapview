@@ -14,12 +14,12 @@
         {
           "type": "csv",
           "name": "AU-CN Climate Collaboration",
-          "description": "Australia China Business Council’s Green Channel is a multi-year, multi-sector program highlighting opportunities from greater collaboration on the Climate challenge. This site is highlighting existing projects underway. To check whether you project qualifies, please contact <a href='mailto:greenchannel@acbc.com'>greenchannel@acbc.com.au</a>",
+          "description": "Australia China Business Council’s Green Channel is a multi-year, multi-sector program highlighting opportunities from greater collaboration on the Climate challenge. This site is highlighting existing projects underway. To check whether you project qualifies, please contact <a href='mailto:green.channel@acbc.com.au'>green.channel@acbc.com.au</a>",
           "url": "https://api.acbcgreenchannel.com.au:8443/greenchannel/collaborator/get",
           "activeStyle": "Magnitude",
           "refreshEnabled":true,
           "featureInfoTemplate":{
-            "name":"{{company}} - {{project}}%",
+            "name":"{{company}} - {{project}}",
             "template":"<div><h3>{{project}}</h3><h4>{{company}}</h4><p>{{description}}</p></div>"
          },
           "id": "greenchannelcnaumap"
